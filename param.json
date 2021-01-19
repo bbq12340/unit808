@@ -1,0 +1,45 @@
+{
+    "type": {
+        "정매장": "dept",
+        "아울렛": "otl",
+        "프리미엄": "pmi",
+        "바로배송": "bro"
+    },
+    "cid": {
+        "여성가방": "001",
+        "남성가방": "002",
+        "지갑": "003",
+        "벨트": "004",
+        "여성신발": "016",
+        "남성신발": "017",
+        "여성의류": "018",
+        "남성의류": "019",
+        "모자": "006",
+        "양말": "007",
+        "선글라스/안경테": "008",
+        "여행용가방/소품": "009",
+        "장갑": "010",
+        "주얼리": "011",
+        "패션소품": "012",
+        "헤어액세서리": "013",
+        "휴대폰악세서리": "014",
+        "기타": "015"
+    },
+    "brand": {
+        "Burberry": "Burberry",
+        "Prada": "Prada",
+        "Gucci": "Gucci",
+        "BALENCIAGA": "BALENCIAGA",
+        "SAINT LAURENT": "SAINT%20LAURENT",
+        "Dior": "Dior",
+        "CELINE": "CELINE",
+        "BOTTEGA VENETA": "BV%20BOLD",
+        "Golden Goose": "Golden%20Goose",
+        "MONCLER": "MONCLER",
+        "MIU MIU": "MIU%20MIU",
+        "Fendi": "Fendi%20",
+        "Thom Browne": "Thom%20Browne",
+        "HARRODS": "HARRODS",
+        "FARFETCH": "FARFETCH"
+    }
+}
