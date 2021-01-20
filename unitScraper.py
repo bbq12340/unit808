@@ -41,7 +41,7 @@ class unitScraper:
                 data['optionNames'] = [option['title'] for option in soup.find_all('select', {'class': 'goods_options'})]
                 for option in data['optionNames']:
                     i = data['optionNames'].index(option)
-                    data[f'{option}'] = (",").join([value.text for value in soup.find_all('select', {'class': 'goods_options'})[i].find_all('option')])
+                    data[f'{option}'] = (",").join([value.text for value in soup.find_all('select', {'class': 'goods_options'})[i].find_all('option')][1:])
             except:
                 pass
             try:
